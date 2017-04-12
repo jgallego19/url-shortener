@@ -1,0 +1,37 @@
+body {
+    background-color: #D55D4E;
+    color: #fff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.container {
+    margin-top: 80px;
+}
+
+.glyphicon-link {
+  font-size: 2em;
+}
+
+.inner h5 {
+    padding-bottom: 20px;
+}
+
+.link-output a{
+    font-size: 1.5em;
+    color: #A2D729;
+}
+
+.btn-shorten {
+    background-color: #342E37;
+}
+.btn-shorten:hover {
+    color: white;
+    background-color: #464149;
+}
+
+.btn.btn-clipboard {
+    font-size: 1.5em;
+    background-color: transparent;
+}

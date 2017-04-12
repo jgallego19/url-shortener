@@ -1,0 +1,33 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "This is a URL shortening service using NodeJS, Express and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgallego19/url-shortener.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Jesús Gallego de la Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgallego19/url-shortener/issues"
+  },
+  "homepage": "https://github.com/jgallego19/url-shortener#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "clipboard": "^1.6.1",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

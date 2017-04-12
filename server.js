@@ -118,7 +118,7 @@ function getNextSequence(name) {
       { _id: name }, // query
       [], // represents a sort order if multiple matches
       { $inc: { seq: 1 } }, // update statement
-      { new: true }, // options - new to return the modified document
+      { new: true, upsert: true }, // options - new to return the modified document, upsert to create a new document if no matching document exists
       function(err, doc) {
         if (err)
           reject(err)

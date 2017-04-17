@@ -22,7 +22,7 @@ catch (err) {
 var db
 var protocol = config.server.protocol || "http";
 var host = config.server.host || "localhost";
-var port = process.env.PORT || config.server.port || 3000;
+var port = config.server.port || process.env.PORT || 3000;
 
 // tell Express to serve file from our public folder
 app.use(express.static(path.join(__dirname, 'public')))

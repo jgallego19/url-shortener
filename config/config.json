@@ -1,0 +1,14 @@
+{
+  "server": {
+    "protocol": "http",
+    "host": "localhost",
+    "port": "3000"
+  },
+
+  "db": {
+    "host": "ds157500.mlab.com:57500",
+    "name": "shortened-urls",
+    "user": "admin",
+    "password": "admin1234"
+  }
+}

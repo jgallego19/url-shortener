@@ -1,5 +1,5 @@
 # url-shortener
-Servicio de acortamiento de URLs, usando NodeJS, Express and MongoDB
+Éste es un servicio de acortamiento de URLs, usando NodeJS, Express and MongoDB
 
 # Instalación
 Para instalar es necesario clonar el repositorio:

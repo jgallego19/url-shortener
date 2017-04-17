@@ -11,7 +11,7 @@ y en el directorio raíz del proyecto ejecutar:
 `npm install`
 
 # Configuración
-Este acortador de URLs utiliza una base de datos MongoDB, servida como SaaS por MongoLab. La conexión es esta base de datos se hace a través de la URI estandar de MongoDB, del tipo:
+Este acortador de URLs utiliza una base de datos MongoDB, servida como SaaS por [MongoLab](https://mlab.com/). La conexión en esta base de datos se hace a través de la URI estandar de MongoDB, del tipo:
 
 `mongodb://<dbuser>:<dbpassword>@<host>:<port>/<database>`
 
